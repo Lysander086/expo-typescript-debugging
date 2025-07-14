@@ -1,5 +1,5 @@
 # Expo React Native TypeScript Debugging
-
+- forked from: https://github.com/byCedric/expo-vscode-debug & thanks @byCedric for the original work
 Successfully debugging with web mode along with TypeScript
 
 ## Features
