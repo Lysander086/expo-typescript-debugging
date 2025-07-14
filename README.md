@@ -1,32 +1,38 @@
-# Test debugging
+# Expo React Native TypeScript Debugging
 
-This project demonstrates the new debugging functionality.
+Successfully debugging with web mode along with TypeScript
 
-## How to run
+## Features
 
-Install the vscode "Expo Tools" version, from this repository by right clicking the `.vsix` file and select "Install".
+- Expo React Native app with TypeScript support
+- Debugging capabilities in VS Code
+- Web mode debugging functionality
+- Proper TypeScript configuration
 
-After that, you have two methods to start the vscode debugger:
+## Getting Started
 
-1. Execute the command: `Expo: Debug app on device`
-2. Launch the `Debug app` task through "Run and Debug".
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-## Start bundler
+2. Start the development server:
+   ```bash
+   npm start
+   ```
 
-The bundler is using unreleased functionality. To use the proper version:
+3. For web debugging:
+   ```bash
+   npm run web
+   ```
 
-- Check out `main` in **expo/expo**
-- Go to **expo/expo** and run `$ cd packages/@expo/cli && yarn install`
-- Go back to this repository
-- `$ EXPO_USE_CUSTOM_INSPECTOR_PROXY=true expod start`
-  > Assuming `expod` is an alias to use `@expo/cli` from the current `main` branch.
+## VS Code Debugging
 
-## Using dev client
+This project includes debugging support for VS Code. You can set breakpoints in your TypeScript files and debug your React Native app effectively.
 
-You can also use a dev client.
+## Technologies Used
 
-- `$ yarn expo install expo-dev-client`
-- `$ yarn expo run:ios` (or `run:android`)
-- Wait until it's complete, close the bundler
-- `$ EXPO_USE_CUSTOM_INSPECTOR_PROXY=true expod start --dev-client`
-  > Assuming `expod` is an alias to use `@expo/cli` from the current `main` branch.
+- React Native
+- Expo
+- TypeScript
+- VS Code debugging tools
