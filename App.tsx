@@ -2,7 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import { Button, StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
-  function onButtonPress() {
+  function onButtonPress(): boolean { // 関数の戻り値の型を追加
     console.log('Button pressed!');
     return true;
   }
