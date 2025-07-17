@@ -8,6 +8,7 @@ Successfully debugging with web mode along with TypeScript
 - Debugging capabilities in VS Code
 - Web mode debugging functionality
 - Proper TypeScript configuration
+- Online build suceeded.
 
 ## Getting Started
 
