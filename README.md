@@ -27,9 +27,11 @@ Successfully debugging with web mode along with TypeScript
    npm run web
    ```
 
-## VS Code Debugging
+## Chrome
 
-This project includes debugging support for VS Code. You can set breakpoints in your TypeScript files and debug your React Native app effectively.
+This project includes debugging support for Chrome. You can set breakpoints in your TypeScript files and debug your React Native app effectively.
+Check the below image for more info.
+<img width="950" height="365" alt="image" src="https://github.com/user-attachments/assets/fd7c9344-a0c0-46d6-91bc-fb00706ca85d" />
 
 ## Technologies Used
 
