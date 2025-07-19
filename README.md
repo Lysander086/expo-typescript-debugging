@@ -1,33 +1,34 @@
 # Expo React Native TypeScript Debugging
+
 - forked from: https://github.com/byCedric/expo-vscode-debug & thanks @byCedric for the original work
-Successfully debugging with web mode along with TypeScript
+  Successfully debugging with web mode along with TypeScript
 
 ## Features
 
 - Expo React Native app with TypeScript support
-- Debugging capabilities in VS Code
-- Web mode debugging functionality
+- Debugging capabilities in Chrome, across Android & Web
+
+  - currently debuggin in VS code is still not available. it would show the grey debug point in the editor.
+
+    ![Image](https://github.com/user-attachments/assets/b8d0fbf0-e598-4ba8-b074-c8a1dd1672e5)
+
+    ![Image](https://github.com/user-attachments/assets/7de5e190-e69a-457d-8728-bc4453bc7378)
+  - ![Image](https://github.com/user-attachments/assets/f2ceb929-6279-4934-b3ca-f027b3270c49)e
 - Proper TypeScript configuration
-- Online build suceeded.
+- Online build suceeded with a installable package for mobile devices.
 
 ## Getting Started
 
 1. Install dependencies:
+
    ```bash
    npm install
    ```
-
 2. Start the development server:
-   ```bash
-   npm start
-   ```
 
-3. For web debugging:
    ```bash
-   npm run web
+   npm run start
    ```
-
-## VS Code Debugging
 
 This project includes debugging support for VS Code. You can set breakpoints in your TypeScript files and debug your React Native app effectively.
 
@@ -36,4 +37,3 @@ This project includes debugging support for VS Code. You can set breakpoints in 
 - React Native
 - Expo
 - TypeScript
-- VS Code debugging tools
