@@ -2,6 +2,7 @@
 
 - forked from: https://github.com/byCedric/expo-vscode-debug & thanks @byCedric for the original work
   Successfully debugging with web mode along with TypeScript
+- PLEASE USE `main` BRANCH for a more stable build.
 
 ## Features
 
@@ -29,7 +30,7 @@
    ```bash
    npm run start
    ```
- 
+
 ## Technologies Used
 
 - React Native
