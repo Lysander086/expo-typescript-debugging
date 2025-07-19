@@ -29,9 +29,7 @@
    ```bash
    npm run start
    ```
-
-This project includes debugging support for VS Code. You can set breakpoints in your TypeScript files and debug your React Native app effectively.
-
+ 
 ## Technologies Used
 
 - React Native
